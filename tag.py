@@ -12,7 +12,10 @@ print len(ct.keys())
 
 '''
 
-sent = raw_input('Enter Your Sentence : ')
+import sys
+
+#sent = raw_input('Enter Your Sentence : ')
+sent = sys.argv[1]
 tokens = nltk.word_tokenize(sent)
 print tokens
 
